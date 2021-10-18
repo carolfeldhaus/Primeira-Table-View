@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		829D79D72719A59A000A9160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D79D62719A59A000A9160 /* AppDelegate.swift */; };
-		829D79D92719A59A000A9160 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D79D82719A59A000A9160 /* SceneDelegate.swift */; };
 		829D79DB2719A59A000A9160 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D79DA2719A59A000A9160 /* ViewController.swift */; };
-		829D79DE2719A59A000A9160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829D79DC2719A59A000A9160 /* Main.storyboard */; };
 		829D79E02719A59C000A9160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829D79DF2719A59C000A9160 /* Assets.xcassets */; };
-		829D79E32719A59C000A9160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829D79E12719A59C000A9160 /* LaunchScreen.storyboard */; };
+		829D79EB2719C842000A9160 /* Projeto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D79EA2719C842000A9160 /* Projeto.swift */; };
+		829D79ED271A024A000A9160 /* ViewControllerWithDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D79EC271A024A000A9160 /* ViewControllerWithDataSource.swift */; };
+		829D79EF271A027E000A9160 /* ViewControllerWithTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D79EE271A027E000A9160 /* ViewControllerWithTableViewDelegate.swift */; };
+		829D79F1271A0E83000A9160 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D79F0271A0E83000A9160 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		829D79D32719A59A000A9160 /* Tabela-Aula-Wilson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabela-Aula-Wilson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		829D79D62719A59A000A9160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		829D79D82719A59A000A9160 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		829D79DA2719A59A000A9160 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		829D79DD2719A59A000A9160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		829D79DF2719A59C000A9160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		829D79E22719A59C000A9160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		829D79E42719A59C000A9160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829D79EA2719C842000A9160 /* Projeto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto.swift; sourceTree = "<group>"; };
+		829D79EC271A024A000A9160 /* ViewControllerWithDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithDataSource.swift; sourceTree = "<group>"; };
+		829D79EE271A027E000A9160 /* ViewControllerWithTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithTableViewDelegate.swift; sourceTree = "<group>"; };
+		829D79F0271A0E83000A9160 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				829D79D62719A59A000A9160 /* AppDelegate.swift */,
-				829D79D82719A59A000A9160 /* SceneDelegate.swift */,
 				829D79DA2719A59A000A9160 /* ViewController.swift */,
-				829D79DC2719A59A000A9160 /* Main.storyboard */,
+				829D79EA2719C842000A9160 /* Projeto.swift */,
+				829D79EC271A024A000A9160 /* ViewControllerWithDataSource.swift */,
+				829D79EE271A027E000A9160 /* ViewControllerWithTableViewDelegate.swift */,
+				829D79F0271A0E83000A9160 /* UIView.swift */,
 				829D79DF2719A59C000A9160 /* Assets.xcassets */,
-				829D79E12719A59C000A9160 /* LaunchScreen.storyboard */,
 				829D79E42719A59C000A9160 /* Info.plist */,
 			);
 			path = "Tabela-Aula-Wilson";
@@ -125,9 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829D79E32719A59C000A9160 /* LaunchScreen.storyboard in Resources */,
 				829D79E02719A59C000A9160 /* Assets.xcassets in Resources */,
-				829D79DE2719A59A000A9160 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,30 +141,14 @@
 			files = (
 				829D79DB2719A59A000A9160 /* ViewController.swift in Sources */,
 				829D79D72719A59A000A9160 /* AppDelegate.swift in Sources */,
-				829D79D92719A59A000A9160 /* SceneDelegate.swift in Sources */,
+				829D79EB2719C842000A9160 /* Projeto.swift in Sources */,
+				829D79ED271A024A000A9160 /* ViewControllerWithDataSource.swift in Sources */,
+				829D79F1271A0E83000A9160 /* UIView.swift in Sources */,
+				829D79EF271A027E000A9160 /* ViewControllerWithTableViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		829D79DC2719A59A000A9160 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				829D79DD2719A59A000A9160 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		829D79E12719A59C000A9160 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				829D79E22719A59C000A9160 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		829D79E52719A59C000A9160 /* Debug */ = {
@@ -293,8 +278,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Tabela-Aula-Wilson/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +289,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +304,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Tabela-Aula-Wilson/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +315,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
